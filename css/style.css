@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+div{
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    max-width: 980px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+.clearFix{
+    clear: both;
+}
+#topBar{
+    height: 50px;
+    background: teal;
+}
+#topBarLeft{
+    width: 40%;
+    float: left;
+}
+#socialNav{
+    list-style-type: none;
+    padding: 0;
+}
+#socialNav li{
+    display: inline;
+}
+#socialNav li a{
+    color: white;
+    /* text-decoration: none; */
+}
+#topBarRight{
+    width: 60%;
+    float: left;
+    text-align: right;
+    line-height: 50px;
+    color: white;
+}
+#header{
+    height: 90px;
+    background: white;
+}
+#headerLeft{
+    width: 40%;
+    float: left;
+}
+#logo{
+    max-width: 100%;
+    display: inline-block;
+    margin-top: 20px;
+}
+#headerRight{
+    width: 60%;
+    float: left;
+}
+#mainNav{
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    text-align: right;
+}
+#mainNav li{
+    display: inline-block;
+    padding: 15px;
+}
+#mainNav li:hover{
+    background: teal;
+    cursor: pointer;
+}
+#mainNav a{
+    color: #333;
+    text-decoration: none;
+}
+#mainNav li:hover > a{
+    color: white;
+}
+#slider{
+    height: 400px;
+    background: url('../images/city.jpg');
+}
+#contentArea{
+    background: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#contentAreaLeft{
+    width: 65%;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.content{
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#contentAreaRight{
+    width: 30%;
+    float: right;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#footerNav{
+    background: teal;
+}
+.navigationMenu{
+    width: 33.33%;
+    height: 200px;
+    float: left;
+    padding: 0 20px;
+}
+.navigationMenu h2{
+    color: white;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    padding-bottom: 5px;
+    border-bottom: 1px solid white;
+}
+.navigationMenu ul{
+    color: white;
+    list-style-type: none;
+}
+#footer{
+    background: white;
+    text-align: center;
+}
